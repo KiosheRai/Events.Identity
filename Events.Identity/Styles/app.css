@@ -1,0 +1,61 @@
+﻿body {
+}
+
+.loginForm,
+.registerForm {
+    border: 1px solid #a8a8a8;
+    border-radius: 15px;
+    -webkit-box-shadow: 0px 0px 14px 3px rgba(34, 60, 80, 0.27);
+    -moz-box-shadow: 0px 0px 14px 3px rgba(34, 60, 80, 0.27);
+    box-shadow: 0px 0px 14px 3px rgba(34, 60, 80, 0.27);
+    overflow: hidden;
+}
+
+#formFooter {
+    background-color: #f6f6f6;
+    border-top: 1px solid #dce8f1;
+    padding: 25px;
+    text-align: center;
+    -webkit-border-radius: 0 0 10px 10px;
+    border-radius: 0 0 10px 10px;
+}
+
+a.underlineHover {
+    color: #92badd;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: 400;
+}
+
+
+.underlineHover:after {
+    display: block;
+    left: 0;
+    bottom: -10px;
+    width: 0;
+    height: 2px;
+    background-color: #56baed;
+    content: "";
+    transition: width 0.2s;
+}
+
+.underlineHover:hover {
+    color: #0d0d0d;
+}
+
+.underlineHover:hover:after {
+    width: 100%;
+}
+
+span.field-validation-error {
+    color: orangered;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.validation-summary-errors ul {
+    list-style: none;
+    color: orangered;
+    font-size: 12px;
+    font-weight: 600;
+}
