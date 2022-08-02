@@ -42,15 +42,15 @@ namespace Events.Identity
                     RequirePkce = true,
                     RedirectUris =
                     {
-                        "http://.../signing-oidc"
+                        "http://localhost:42312"
                     },
                     AllowedCorsOrigins =
                     {
-                        "http://..."
+                        "http://localhost:42312"
                     },
                     PostLogoutRedirectUris =
                     {
-                        "http://.../signout-oidc"
+                        "http://localhost:42312"
                     },
                     AllowedScopes =
                     {
